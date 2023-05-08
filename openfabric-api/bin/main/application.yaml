@@ -9,5 +9,3 @@
 spring:
   profiles:
     include: base,local
-
-

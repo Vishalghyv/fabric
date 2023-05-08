@@ -8,7 +8,7 @@ spring:
     multipart:
       max-file-size: 1000MB
       max-request-size: 1000MB
-      location:     #TODO add it in extended profiles
+      location: #TODO add it in extended profiles
   # = JACKSON configurations #####################################
   jackson:
     serialization:
@@ -30,9 +30,9 @@ spring:
   # = DATASOURCE configurations ###################################
   datasource:
     driver-class-name: org.postgresql.Driver
-    url:            #TODO add it in extended profiles
-    username:       #TODO add it in extended profiles
-    password:       #TODO add it in extended profiles
+    url: #TODO add it in extended profiles
+    username: #TODO add it in extended profiles
+    password: #TODO add it in extended profiles
   # = LIQUIBASE configurations #########################################
   liquibase:
     change-log: classpath:db/liquibase-changelog.xml
